@@ -1,0 +1,79 @@
+.btncreation {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#btcreation {
+  display: flex;
+  width: 80%;
+  height: 90px;
+  box-shadow: 10px -5px black;
+  background-color: lightgreen;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  font-size: 18px;
+  margin: 10px 0 30px 0;
+  cursor: pointer;
+}
+
+#btcreation:hover {
+  font-size: 30px;
+  color: black;
+  animation: mybutton 2s ease-in-out;
+}
+
+@keyframes mybutton {
+  from {
+    font-size: 18px;
+    color: black;
+  }
+  to {
+    font-size: 30px;
+    color: blue;
+  }
+}
+
+.filtres {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.filtres_container {
+  display: flex;
+  width: 80%;
+}
+
+.searchSection {
+  display: flex;
+  width: 60%;
+}
+
+.selectSection {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+}
+
+#selectType {
+  width: 100%;
+  height: 35px;
+  border: black solid 2px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}

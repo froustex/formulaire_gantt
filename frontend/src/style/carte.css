@@ -1,0 +1,44 @@
+.carte_projet {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.carte_container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+}
+
+.titre_container {
+  width: 30%;
+}
+
+.type_container {
+  width: 20%;
+}
+
+.date_container {
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dateDebut {
+  color: green;
+}
+
+.dateFin {
+  color: red;
+}
+
+.vue_button {
+  background-color: #41bbe2;
+}
+
+.view_icon {
+  cursor: pointer;
+}

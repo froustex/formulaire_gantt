@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+  background-color: rgb(239, 184, 194);
+}
+
+form {
+  display: flex;
+  width: 100%;
+}
+
+.projet_form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  color: #333331;
+}
+
+.projet_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.projet_nom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.projet_description {
+  display: flex;
+  width: 100%;
+}
+
+.date_debut {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.createur_projet {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.select_input {
+  display: flex;
+  width: 40%;
+  height: 3rem;
+  justify-content: center;
+  border: rgb(88, 88, 223) solid 3px;
+}
+
+select {
+  text-align: center;
+  width: 100%;
+}
+
+.collaborateur {
+  display: flex;
+  width: 100%;
+}
+
+.collaborateur_bloc {
+  display: flex;
+  width: 96%;
+  height: 3rem;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+}
+
+.collaborateur1 {
+  display: flex;
+  width: 100%;
+  border: rgb(88, 88, 223) solid 3px;
+}
+
+.collaborateur2 {
+  display: flex;
+  width: 100%;
+  border: rgb(88, 88, 223) solid 3px;
+}
+
+.collaborateur3 {
+  width: 100%;
+  display: flex;
+  border: rgb(88, 88, 223) solid 3px;
+}
+
+.collaborateur4 {
+  display: flex;
+  width: 100%;
+  border: rgb(88, 88, 223) solid 3px;
+}
+
+label {
+  font-size: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+#projet_description {
+  width: 95%;
+}
+
+input {
+  width: 90%;
+  height: 35px;
+  border: black solid 2px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.submit_button {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+#button_creation {
+  display: flex;
+  width: 50%;
+  height: 60px;
+  box-shadow: 10px -5px black;
+  background-color: lightgreen;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  font-size: 18px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+#button_creation:hover {
+  font-size: 30px;
+  color: black;
+  animation: mybutton 2s ease-in-out;
+}
+
+@keyframes mybutton {
+  from {
+    font-size: 18px;
+    color: black;
+  }
+  to {
+    font-size: 30px;
+    color: blue;
+  }
+}
+
+#retour_button:hover {
+  font-size: 30px;
+  color: black;
+  animation: myotherbutton 2s ease-in-out;
+}
+
+@keyframes myotherbutton {
+  from {
+    font-size: 18px;
+    color: black;
+  }
+  to {
+    font-size: 30px;
+    color: red;
+  }
+}
+
+.navbutton {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#retour_button {
+  display: flex;
+  width: 50%;
+  height: 60px;
+  box-shadow: 10px -5px black;
+  background-color: lightgreen;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  font-size: 18px;
+  margin: 10px 0;
+  cursor: pointer;
+}
